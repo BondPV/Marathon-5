@@ -44,6 +44,9 @@
 .title.title_center {
     text-align: center;
 }
+.title_light {
+    color: #FFFFFF;
+}
 
 .header {
     margin-top: 35px;
@@ -205,6 +208,7 @@
 
 }
 .functioning__item {
+    display: block;
     width: 285px;
     font-weight: 400;
     font-size: 18px;
@@ -283,4 +287,42 @@
 }
 .slider__img:last-child {
     margin-bottom: 0px;
+}
+
+.footer {
+    background-color: #8D7370;
+}
+.footer__wrapper {
+    display: flex;
+
+}
+.footer__request {
+    padding: 50px 20px 186px 82px;
+}
+.footer__request-descr {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.6
+}
+.feed-form {
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+    width: 508px;
+}
+.feed-form input  {
+    height: 81px;
+    background-color: #8D7370;
+    border: none;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.footer__map {
+    display: block;
+    width: 590px;
+    height: 624px;
 }

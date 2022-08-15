@@ -118,19 +118,19 @@
             <h2 class="title title_center">Как мы работаем</h2>
             <ul class="functioning__items">
                 <li class="functioning__item">
-                    <div class="functioning__number">1</div>
+                    <span class="functioning__number">1</span>
                     Знакомимся, выезжаем<br> на объект, утверждаем концепцию, подписываем договор.
                 </li>
                 <li class="functioning__item">
-                    <div class="functioning__number">2</div>
+                    <span class="functioning__number">2</span>
                     Подбираем мебель, текстиль, аксессуары. Делаем 3D-визуализацию.
                 </li>
                 <li class="functioning__item">
-                    <div class="functioning__number">3</div>
+                    <span class="functioning__number">3</span>
                     Находим нужные магазины, помогаем с доставкой и оплатой товаров.
                 </li>
                 <li class="functioning__item">
-                    <div class="functioning__number">4</div>
+                    <span class="functioning__number">4</span>
                     Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для мелочей.
                 </li>
             </ul>
@@ -163,15 +163,31 @@
             </div>
         </div>
     </aside>
-    <footer>
-        <div class="request">
-            <h2 class="title_light">Оставить заявку</h2>
-            <p>Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.</p>
-            <button class="request__button">Оставить заявку</button>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__request">
+                    <h2 class="title title_light">Оставить заявку</h2>
+                    <div class="footer__request-descr">Оставьте свои контакты. Менеджер перезвонит<br>
+                        в удобное вам время и ответит на все вопросы.</div>
+                    <form class="feed-form" action="#">
+                        <input name="name" required placeholder="Ваше имя" type="text">
+                        <input name="phone" required placeholder="Введите телефон" type="number">
+                        <button class="button">Оставить заявку</button>
+                    </form>
+                </div>
+                <img src="img/map.jpg" alt="Карта с отмеченным адресом: г. Санкт-петербург, ул. Большая Конюшенная, 19" class="footer__map">
+            </div>
+            <div class="footer__contacts">
+                <ul class="footer__contacts-items">
+                    <li class="footer__contacts-item">
+                        <a href="tel:89818574624" class="footer__phone">+7 (981) 857-46-24</a>
+                    </li>
+                    <li class="footer__contacts-item">г. Санкт-петербург, ул. Большая Конюшенная, 19</li>
+                    <li class="footer__contacts-item">ИП Королёва А.А.</li>
+                </ul>
+            </div>
         </div>
-        <div class="map">
-        </div>
-        <div class="contacts"></div>
     </footer>
     
 </body>
